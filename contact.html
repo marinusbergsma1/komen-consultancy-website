@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Komen Consultancy</title>
+  <meta name="description" content="Neem contact op met Komen Consultancy voor vrijblijvend financieel advies, boekhouding, fiscale optimalisatie en Odoo implementatie.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" href="https://www.komenconsultancy.com/logo.png?company=1">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div class="preloader">
+    <div class="preloader-spinner"></div>
+  </div>
+
+  <!-- Cursor Glow -->
+  <div class="cursor-glow"></div>
+
+  <!-- ==================== NAVBAR ==================== -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="navbar-logo">
+        <img src="https://raw.githubusercontent.com/babenkonetframe/komen-consultancy/refs/heads/main/logo/logo02.png" alt="Komen Consultancy">
+        <span>Komen<span style="color:var(--primary)">.</span></span>
+      </a>
+
+      <div class="navbar-nav">
+        <a href="diensten.html">Diensten</a>
+        <a href="index.html#waarom">Waarom Ons</a>
+        <a href="odoo.html">Odoo</a>
+        <a href="over-ons.html">Over Ons</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="active">Contact</a>
+      </div>
+
+      <div class="navbar-actions">
+        <a href="contact.html" class="navbar-cta">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" /></svg>
+          Gratis Consult
+        </a>
+        <button class="hamburger" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay"></div>
+
+  <!-- Mobile Menu (slides from right) -->
+  <div class="mobile-menu">
+    <div class="mobile-menu-header">
+      <a href="index.html" class="navbar-logo">
+        <img src="https://raw.githubusercontent.com/babenkonetframe/komen-consultancy/refs/heads/main/logo/logo02.png" alt="Komen Consultancy" style="height:28px">
+        <span style="font-size:1rem">Komen<span style="color:var(--primary)">.</span></span>
+      </a>
+      <button class="mobile-menu-close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+    </div>
+    <nav class="mobile-menu-nav">
+      <a href="diensten.html">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6A2.25 2.25 0 016 3.75h2.25A2.25 2.25 0 0110.5 6v2.25a2.25 2.25 0 01-2.25 2.25H6a2.25 2.25 0 01-2.25-2.25V6z" /><path stroke-linecap="round" stroke-linejoin="round" d="M3.75 15.75A2.25 2.25 0 016 13.5h2.25a2.25 2.25 0 012.25 2.25V18a2.25 2.25 0 01-2.25 2.25H6A2.25 2.25 0 013.75 18v-2.25z" /><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 6a2.25 2.25 0 012.25-2.25H18A2.25 2.25 0 0120.25 6v2.25A2.25 2.25 0 0118 10.5h-2.25a2.25 2.25 0 01-2.25-2.25V6z" /><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 15.75a2.25 2.25 0 012.25-2.25H18a2.25 2.25 0 012.25 2.25V18A2.25 2.25 0 0118 20.25h-2.25A2.25 2.25 0 0113.5 18v-2.25z" /></svg>
+        Diensten
+      </a>
+      <a href="index.html#waarom">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+        Waarom Ons
+      </a>
+      <a href="odoo.html">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.959.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z" /></svg>
+        Odoo Integratie
+      </a>
+      <a href="over-ons.html">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" /></svg>
+        Over Ons
+      </a>
+      <a href="blog.html">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" /></svg>
+        Blog
+      </a>
+      <a href="contact.html" class="active">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+        Contact
+      </a>
+    </nav>
+    <div class="mobile-menu-contact">
+      <h4>Contactgegevens</h4>
+      <div class="mobile-contact-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+        <span>+31 251 860 261</span>
+      </div>
+      <div class="mobile-contact-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+        <span>info@komen-consultancy.nl</span>
+      </div>
+      <div class="mobile-contact-item">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+        <span>Breestraat 95, Beverwijk</span>
+      </div>
+    </div>
+    <div class="mobile-menu-cta">
+      <a href="contact.html" class="btn btn-primary btn-lg">Gratis Consultatie Boeken</a>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE HERO ==================== -->
+  <section class="page-hero centered">
+    <div class="container">
+      <div class="breadcrumbs reveal">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span class="current">Contact</span>
+      </div>
+      <div class="section-badge reveal">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+        Neem Contact Op
+      </div>
+      <h1 class="reveal">Wij staan voor <span class="text-gradient">u klaar</span></h1>
+      <p class="reveal">Heeft u vragen of wilt u een vrijblijvende consultatie? Neem vandaag nog contact op.</p>
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT GRID ==================== -->
+  <section class="section" style="background:var(--white)">
+    <div class="container">
+      <div class="contact-grid reveal">
+
+        <!-- Left: Contact Form -->
+        <div class="contact-form-section">
+          <h2>Stuur ons een bericht</h2>
+          <p>Vul het formulier in en wij nemen binnen 24 uur contact op.</p>
+          <form onsubmit="event.preventDefault()">
+            <div class="form-row">
+              <div class="form-group">
+                <label>Voornaam</label>
+                <input type="text" name="firstname" placeholder="Jan" required>
+              </div>
+              <div class="form-group">
+                <label>Achternaam</label>
+                <input type="text" name="lastname" placeholder="de Vries" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>E-mail</label>
+              <input type="email" name="email" placeholder="jan@bedrijf.nl" required>
+            </div>
+            <div class="form-group">
+              <label>Telefoon</label>
+              <input type="tel" name="phone" placeholder="+31 6 12345678">
+            </div>
+            <div class="form-group">
+              <label>Onderwerp</label>
+              <select name="subject">
+                <option value="">Selecteer een onderwerp</option>
+                <option value="boekhouding">Boekhouding</option>
+                <option value="fiscaal">Fiscaal Advies</option>
+                <option value="odoo">Odoo Implementatie</option>
+                <option value="cfo">Fractioneel CFO</option>
+                <option value="anders">Anders</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Bericht</label>
+              <textarea name="message" placeholder="Waar kunnen wij u mee helpen?" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg" style="width:100%">
+              Verstuur Bericht
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
+            </button>
+          </form>
+        </div>
+
+        <!-- Right: Contact Info + Map -->
+        <div class="contact-info-section">
+          <!-- Phone Card -->
+          <div class="contact-info-card">
+            <div class="contact-info-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+            </div>
+            <h3>Telefoon</h3>
+            <p>Bel ons direct voor een persoonlijk gesprek.</p>
+            <a href="tel:+31251860261">+31 251 860 261</a>
+          </div>
+
+          <!-- Email Card -->
+          <div class="contact-info-card">
+            <div class="contact-info-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+            </div>
+            <h3>E-mail</h3>
+            <p>Stuur ons een bericht, wij reageren binnen 24 uur.</p>
+            <a href="mailto:info@komen-consultancy.nl">info@komen-consultancy.nl</a>
+          </div>
+
+          <!-- Address Card -->
+          <div class="contact-info-card">
+            <div class="contact-info-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+            </div>
+            <h3>Adres</h3>
+            <p>Breestraat 95, 1941 EG Beverwijk, Nederland</p>
+            <a href="https://maps.google.com/?q=Breestraat+95,+1941+EG+Beverwijk" target="_blank" rel="noopener">Route plannen</a>
+          </div>
+
+          <!-- Opening Hours Card -->
+          <div class="contact-info-card">
+            <div class="contact-info-card-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+            </div>
+            <h3>Openingstijden</h3>
+            <p>Maandag &ndash; Vrijdag: 9:00 &ndash; 17:30</p>
+            <a href="tel:+31251860261">Bel voor afspraak</a>
+          </div>
+
+          <!-- Google Maps -->
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2434.5!2d4.6557!3d52.4842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5f0a4a2f2c5a7%3A0x0!2sBreestraat+95%2C+Beverwijk!5e0!3m2!1snl!2snl!4v1700000000000" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Komen Consultancy locatie"></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FAQ SECTION ==================== -->
+  <section class="faq-section section">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9 5.25h.008v.008H12v-.008z" /></svg>
+          Veelgestelde Vragen
+        </div>
+        <h2>Alles wat u wilt <span class="text-gradient">weten</span></h2>
+        <p>Antwoorden op de meest gestelde vragen over onze diensten en werkwijze.</p>
+      </div>
+
+      <div class="faq-list reveal">
+        <!-- FAQ 1 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Wat kost een eerste consultatie?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Onze eerste consultatie is volledig gratis en vrijblijvend. Tijdens dit gesprek bespreken wij uw huidige financiële situatie, inventariseren we uw behoeften en adviseren wij over de beste aanpak voor uw onderneming. Zo kunt u zonder verplichtingen kennismaken met onze werkwijze.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 2 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Hoe snel kunnen jullie beginnen?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Na de intake zijn wij doorgaans binnen 1 tot 2 weken volledig operationeel. Wij zorgen voor een soepele onboarding, inclusief het opzetten van systemen, het overnemen van bestaande administratie en het inrichten van de gewenste rapportages.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 3 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Werken jullie met specifieke branches?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Ja, wij hebben uitgebreide expertise in diverse sectoren waaronder het MKB, vastgoed, IT &amp; technologie, zorgsector en logistiek. Door onze brede ervaring begrijpen wij de specifieke financiële uitdagingen en kansen binnen elke branche.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 4 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Wat is een fractioneel CFO?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Een fractioneel CFO biedt strategisch financieel leiderschap op flexibele basis. U krijgt de expertise en ervaring van een Chief Financial Officer zonder de kosten van een fulltime aanstelling. Ideaal voor groeiende ondernemingen die strategisch financieel advies nodig hebben.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 5 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Kunnen jullie mijn bestaande boekhouding overnemen?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Ja, wij zorgen voor een soepele overgang van uw huidige boekhouding naar ons. Indien gewenst begeleiden wij ook de migratie naar Odoo, zodat uw financiële administratie volledig geautomatiseerd en gestroomlijnd wordt. Wij garanderen continu&iuml;teit tijdens het overstapproces.
+            </div>
+          </div>
+        </div>
+
+        <!-- FAQ 6 -->
+        <div class="faq-item">
+          <button class="faq-question">
+            Bieden jullie ook Odoo training aan?
+            <svg class="faq-icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" /></svg>
+          </button>
+          <div class="faq-answer">
+            <div class="faq-answer-inner">
+              Ja, wij bieden uitgebreide Odoo training aan voor uw team. Van basisfunctionaliteiten tot geavanceerde rapportages &mdash; wij zorgen ervoor dat uw medewerkers het systeem optimaal benutten. Daarnaast bieden wij doorlopende support voor vragen na de training.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA SECTION ==================== -->
+  <section class="cta-section section">
+    <div class="container">
+      <div class="cta-content reveal-scale">
+        <h2>Klaar om te starten? <span class="text-gradient">Neem vandaag nog contact op</span></h2>
+        <p>Boek een gratis, vrijblijvende consultatie en ontdek hoe wij uw financiële processen kunnen optimaliseren.</p>
+        <div class="cta-actions">
+          <a href="tel:+31251860261" class="btn btn-primary btn-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+            Bel Direct: +31 251 860 261
+          </a>
+          <a href="mailto:info@komen-consultancy.nl" class="btn btn-secondary btn-lg" style="border-color:rgba(255,255,255,0.2);color:white;background:rgba(255,255,255,0.08)">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+            Stuur een Email
+          </a>
+        </div>
+        <div class="cta-note">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>
+          Gratis &amp; vrijblijvend &middot; Reactie binnen 24 uur
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <div class="footer-brand-logo">
+            <img src="https://raw.githubusercontent.com/babenkonetframe/komen-consultancy/refs/heads/main/logo/logo02.png" alt="Komen Consultancy">
+            <span>Komen Consultancy</span>
+          </div>
+          <p>Van financiële data naar inzicht waarmee u kunt sturen. Helderheid, vertrouwen en resultaten voor uw onderneming.</p>
+          <div class="footer-newsletter">
+            <p>Ontvang financiële tips &amp; inzichten:</p>
+            <form class="newsletter-form" onsubmit="event.preventDefault()">
+              <input type="email" placeholder="Uw e-mailadres" required>
+              <button type="submit">Aanmelden</button>
+            </form>
+          </div>
+        </div>
+
+        <!-- Diensten -->
+        <div class="footer-column">
+          <h4>Diensten</h4>
+          <ul>
+            <li><a href="diensten.html">Boekhouding</a></li>
+            <li><a href="diensten.html">Jaarrekeningen</a></li>
+            <li><a href="diensten.html">Fiscale Optimalisatie</a></li>
+            <li><a href="diensten.html">Financiële Strategie</a></li>
+            <li><a href="odoo.html">Odoo Implementatie</a></li>
+            <li><a href="diensten.html">Fractioneel CFO</a></li>
+            <li><a href="diensten.html">KPI Monitoring</a></li>
+          </ul>
+        </div>
+
+        <!-- Bedrijf -->
+        <div class="footer-column">
+          <h4>Bedrijf</h4>
+          <ul>
+            <li><a href="over-ons.html">Over Ons</a></li>
+            <li><a href="index.html#werkwijze">Werkwijze</a></li>
+            <li><a href="index.html#reviews">Klantervaringen</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="odoo.html">Odoo Boekhouden</a></li>
+            <li><a href="diensten.html">Vastgoed</a></li>
+            <li><a href="diensten.html">Belastingen &amp; Compliance</a></li>
+          </ul>
+        </div>
+
+        <!-- Branches -->
+        <div class="footer-column">
+          <h4>Branches</h4>
+          <ul>
+            <li><a href="diensten.html">Kleine Bedrijven</a></li>
+            <li><a href="diensten.html">Middelgrote Bedrijven</a></li>
+            <li><a href="diensten.html">Vastgoed</a></li>
+            <li><a href="diensten.html">IT &amp; Tech</a></li>
+            <li><a href="diensten.html">Zorg</a></li>
+            <li><a href="diensten.html">Logistiek</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact -->
+        <div class="footer-column">
+          <h4>Contact</h4>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+            <span>Breestraat 95<br>1941 EG Beverwijk<br>Nederland</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+            <span>+31 251 860 261</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+            <span>info@komen-consultancy.nl</span>
+          </div>
+          <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/steef-komen-60632236/" class="footer-social-link" target="_blank" rel="noopener" aria-label="LinkedIn">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z" /></svg>
+            </a>
+            <a href="https://github.com/Steefkomen" class="footer-social-link" target="_blank" rel="noopener" aria-label="GitHub">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" /></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2024 Komen Consultancy. Alle rechten voorbehouden.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Privacybeleid</a>
+          <a href="#">Algemene Voorwaarden</a>
+          <a href="#">Cookiebeleid</a>
+          <a href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== CONTACT SLIDE-OUT TAB ==================== -->
+  <div class="contact-tab">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+    Contact
+  </div>
+
+  <!-- Contact Panel Overlay -->
+  <div class="contact-panel-overlay"></div>
+
+  <!-- Contact Slide-Out Panel -->
+  <div class="contact-panel">
+    <div class="contact-panel-header">
+      <button class="contact-panel-close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+      <h3>Neem Contact Op</h3>
+      <p>Wij reageren binnen 24 uur</p>
+    </div>
+
+    <div class="contact-panel-info">
+      <div class="contact-info-item">
+        <div class="contact-info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z" /></svg>
+        </div>
+        <div>
+          <span class="contact-info-label">Telefoon</span>
+          <span class="contact-info-text">+31 251 860 261</span>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" /></svg>
+        </div>
+        <div>
+          <span class="contact-info-label">E-mail</span>
+          <span class="contact-info-text">info@komen-consultancy.nl</span>
+        </div>
+      </div>
+      <div class="contact-info-item">
+        <div class="contact-info-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" /><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" /></svg>
+        </div>
+        <div>
+          <span class="contact-info-label">Adres</span>
+          <span class="contact-info-text">Breestraat 95, 1941 EG Beverwijk</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact-panel-form">
+      <h4>Stuur een bericht</h4>
+      <form>
+        <div class="form-row">
+          <div class="form-group">
+            <label>Voornaam</label>
+            <input type="text" name="firstname" placeholder="Jan" required>
+          </div>
+          <div class="form-group">
+            <label>Achternaam</label>
+            <input type="text" name="lastname" placeholder="de Vries" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label>E-mail</label>
+          <input type="email" name="email" placeholder="jan@bedrijf.nl" required>
+        </div>
+        <div class="form-group">
+          <label>Onderwerp</label>
+          <select name="subject">
+            <option value="">Selecteer een onderwerp</option>
+            <option value="boekhouding">Boekhouding</option>
+            <option value="fiscaal">Fiscaal Advies</option>
+            <option value="odoo">Odoo Implementatie</option>
+            <option value="cfo">Fractioneel CFO</option>
+            <option value="anders">Anders</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Bericht</label>
+          <textarea name="message" placeholder="Waar kunnen wij u mee helpen?" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%">
+          Versturen
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
+        </button>
+      </form>
+    </div>
+
+    <div class="contact-panel-social">
+      <a href="https://www.linkedin.com/in/steef-komen-60632236/" class="social-link" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z" /></svg>
+      </a>
+      <a href="https://github.com/Steefkomen" class="social-link" target="_blank" rel="noopener">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" /></svg>
+      </a>
+    </div>
+  </div>
+
+  <!-- ==================== AI CHATBOT ==================== -->
+  <div class="chatbot-trigger">
+    <div class="chatbot-pulse"></div>
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 00-2.455 2.456z" /></svg>
+    <span class="chatbot-badge">1</span>
+  </div>
+
+  <div class="chatbot-window">
+    <div class="chatbot-header">
+      <div class="chatbot-header-avatar">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" /></svg>
+      </div>
+      <div class="chatbot-header-info">
+        <h4>Komen AI Assistent</h4>
+        <span><span class="online-dot"></span> Online &middot; Antwoord in sec.</span>
+      </div>
+      <button class="chatbot-header-close">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" /></svg>
+      </button>
+    </div>
+
+    <div class="chatbot-messages">
+      <div class="chat-message bot">
+        <div class="chat-message-avatar">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" /></svg>
+        </div>
+        <div class="chat-message-bubble">
+          Welkom bij Komen Consultancy! Ik ben uw virtuele financieel adviseur. Waarmee kan ik u helpen?
+        </div>
+      </div>
+      <div class="chat-quick-replies">
+        <button class="chat-quick-reply">Boekhouding</button>
+        <button class="chat-quick-reply">Belasting advies</button>
+        <button class="chat-quick-reply">Odoo implementatie</button>
+        <button class="chat-quick-reply">Tarieven</button>
+      </div>
+    </div>
+
+    <div class="chatbot-input-area">
+      <input type="text" class="chatbot-input" placeholder="Typ uw vraag...">
+      <button class="chatbot-send">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M6 12L3.269 3.126A59.768 59.768 0 0121.485 12 59.77 59.77 0 013.27 20.876L5.999 12zm0 0h7.5" /></svg>
+      </button>
+    </div>
+  </div>
+
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Terug naar boven">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" /></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
